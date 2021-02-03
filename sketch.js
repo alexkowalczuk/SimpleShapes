@@ -8,12 +8,11 @@ function setup() {
   //rectMode(CENTER);
  }
 
-
 // Draw code goes here
 function draw() {
   background(211, 211, 211); //color of the background
   fill(0); //color of the text
-  //text("Alex Kowalczuk", 200, 40); //our text
+
   fill(204, 101, 192, 127);
   rect(600, 80, 100, 100, 20);
 
@@ -32,9 +31,7 @@ function draw() {
   fill('black');
   square(1000, 550, 300);
 
-
   drawHouse();
-
 
   flower();
 
@@ -43,7 +40,6 @@ function draw() {
   picasso();
 
 }
-
 
 function drawHouse() {
 	fill('orange');
@@ -73,7 +69,6 @@ function weird() {
 		rotate(PI/5);
 	}
 }
-
 
 function picasso(){
 	fill(0, 10);
