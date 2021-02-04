@@ -1,5 +1,3 @@
-
-// Setup code goes here
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
@@ -41,6 +39,7 @@ function draw() {
 
 }
 
+//Function that create small house
 function drawHouse() {
 	fill('orange');
 	translate(10, 10);
@@ -49,6 +48,7 @@ function drawHouse() {
 	rect(12, 30, 10, 10);
 }
 
+//Function that create us flower
 function flower() {
   fill('blue');	
   translate(100, 100);
@@ -59,6 +59,7 @@ function flower() {
   }
 }
 
+//Function that creates kind of weird flower with circles
 function weird() {
 	translate(250, 80);
 	noStroke();
@@ -69,7 +70,7 @@ function weird() {
 		rotate(PI/5);
 	}
 }
-
+//Function that draws us some cool art, called it picasso 
 function picasso(){
 	fill(0, 10);
 	stroke(0, 160);
